@@ -1,0 +1,21 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.mainContent {
+  display: flex;
+  flex: 1; /* Ensures this section takes the available vertical space */
+  background-color: #f8f9fc; /* Light background for main content */
+}
+
+.content {
+  flex: 1; /* Ensures the content area fills available space */
+  padding: 2rem;
+  background-color: white; /* Background for the content area */
+  border-radius: 8px;
+  margin: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  overflow-y: auto; /* Prevent content from overflowing */
+}

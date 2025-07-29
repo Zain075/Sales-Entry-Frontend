@@ -1,0 +1,75 @@
+.sidebar {
+    margin-top: 100px;
+    width: 200px;
+    background-color: #f8f9fc; /* Light sidebar background */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items at the top */
+    padding: 1rem;
+    border-right: 1px solid #e2e8f0; /* Subtle border */
+    height: calc(100vh - 64px - 40px); /* Full height minus header and footer */
+  }
+  
+  /* Adjust logo styles */
+  .logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2c5282;
+    text-align: center;
+    margin-bottom: 1rem; /* Add smaller space below the logo */
+  }
+  
+  /* Adjust navigation section */
+  .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 0.5rem; /* Start closer to the top */
+  }
+  
+  /* Navigation links */
+  .navLink {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    text-decoration: none;
+    color: #4a5568;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .navLink:hover {
+    background-color: #e2e8f0; /* Subtle hover background */
+    color: #2c5282;
+  }
+  
+  .active {
+    background-color: #2c5282;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Icons */
+  .icon {
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+  
+  /* Logout button */
+  .logout {
+    background-color: #1a202c;
+    color: white;
+    border: none;
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: auto; /* Push the logout button to the bottom */
+  }
+  
+  .logout:hover {
+    background-color: #2d3748;
+  }
+  
